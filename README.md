@@ -159,7 +159,7 @@ sequenceDiagram
     CLI->>H: Show proposed content
     H->>CLI: Approve, reject or edit JSON
     CLI->>G: Command(resume=answer), same thread_id
-    G->>G: Validate; route or re-prompt
+    G->>G: Validate answer and route or re-prompt
     Note over G,H: Draft acceptance opens a second tool-argument review
     G-->>CLI: Cancel, re-prompt, or approved simulation receipt
 ```

@@ -1,0 +1,54 @@
+# Credentials and private configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*service-account*.json
+.secrets/
+.aws/
+.ssh/
+.netrc
+.pypirc
+# Environments and Python caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+# Runtime checkpoints, local user state, generated outputs
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.log
+*.tmp
+*.bak
+work/
+outputs/
+local-state/
+*-OUTPUT.txt
+INTERACTIVE-CHECKS.txt
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
+*~
+# Additional credential containers and local coverage reports
+.envrc
+.git-credentials
+.credentials/
+credentials/
+secrets.*
+*.token
+*.secret
+.coverage
+htmlcov/
